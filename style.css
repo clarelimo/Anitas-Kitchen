@@ -94,5 +94,13 @@ nav>.menus>img:hover {
     box-sizing: border-box; 
     box-shadow: 5px 5px 5px gray;
     padding: 10px;
-
+}
+.fastfood{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-image: url("./Images/backgrounds/foodsBg.jpg");
+    background-color: white;
 }
