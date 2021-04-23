@@ -65,3 +65,31 @@ nav>.menus>img:hover {
     padding-top: 18px;
     width: 350px;
 }
+.lunch{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    width: 70%;
+}
+.food{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    margin-left: 10px;
+}
+.drinks{
+    width: 50%;
+    margin: 10px;
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+
+}
+.fastfood{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    width: 70%;
+}
