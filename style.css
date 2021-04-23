@@ -1,5 +1,5 @@
 .header{
-    background-image: url("./Images/backgrounds/landing.jpg");
+    /* background-image: url("./Images/backgrounds/landing.jpg"); */
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute; 
@@ -15,4 +15,54 @@
     padding: 300px;
     color:white;
     font-size: 50px;
+}
+nav{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.1%;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+}
+nav>.menus>.menu>a{
+    font-size: 24px;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+}
+nav>.menus>img:hover {
+    opacity: 0.5;
+}
+.menus{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.partytime{
+    background-color: tomato;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    width: 300px;
+    height: 100px;
+}
+.happyhour{
+    text-align: center;
+    height: 90px;
+} 
+.othermenus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 18px;
 }
