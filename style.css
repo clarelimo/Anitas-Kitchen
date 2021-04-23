@@ -1,0 +1,18 @@
+.header{
+    background-image: url("./Images/backgrounds/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;   
+}
+.logo{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 300px;
+    color:white;
+    font-size: 50px;
+}
