@@ -1,3 +1,6 @@
+html{
+    width: 100%;
+}
 .header{
     position: relative;
     top: 0;
@@ -80,16 +83,16 @@ nav>.menus>img:hover {
     margin-left: 10px;
 }
 .drinks{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    width: 70%;
+}
+.drink{
     width: 50%;
     margin: 10px;
     box-sizing: border-box; 
     box-shadow: 5px 5px 5px gray;
     padding: 10px;
 
-}
-.fastfood{
-    display: flex;
-    flex-direction: row;
-    margin: 5%;
-    width: 70%;
 }
