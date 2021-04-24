@@ -1,5 +1,6 @@
 html{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 .header{
     position: relative;
@@ -72,7 +73,7 @@ nav>.menus>img:hover {
     display: flex;
     flex-direction: row;
     margin: 5%;
-    width: 70%;
+    width: 80%;
 }
 .food{
     float: left;
@@ -84,9 +85,8 @@ nav>.menus>img:hover {
 }
 .drinks{
     display: flex;
-    flex-direction: row;
     margin: 5%;
-    width: 70%;
+    width: 80%;
 }
 .drink{
     width: 50%;
@@ -96,11 +96,31 @@ nav>.menus>img:hover {
     padding: 10px;
 }
 .fastfood{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 50px;
     background-image: url("./Images/backgrounds/foodsBg.jpg");
-    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-position: center;
+    overflow: hidden; */
+    
 }
+.foods{
+    width: 20%;
+    height: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 50px 0 50px 0;
+    color: tomato;
+    
+   
+}
+/* .foods img{
+    position: relative;
+    display: flex;
+    text-align: center;
+} */
