@@ -119,8 +119,18 @@ nav>.menus>img:hover {
     
    
 }
-/* .foods img{
-    position: relative;
+.customers{
+    width: 500px;
+    margin: auto;
     display: flex;
-    text-align: center;
-} */
+    flex-direction: column;
+    text-align: justify;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    padding: 30px;
+}
+.feedbacks{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
