@@ -134,6 +134,10 @@ nav>.menus>img:hover {
     width: 50%;
     padding: 30px;
 }
+.feedback{
+    display: flex;
+    justify-content: center;
+}
 .about-menu{
     width: 50%;
     margin-left: 10px;
