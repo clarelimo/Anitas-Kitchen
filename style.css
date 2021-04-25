@@ -186,8 +186,6 @@ footer{
     padding: 10px;
 
 }
-.footer-img{
-    display: flex;
-    justify-content: center;
-    
+.footer-img>a{
+    padding: 5px;
 }
