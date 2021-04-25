@@ -1,21 +1,23 @@
 html{
-    width: 80%;
     margin: auto;
+    width: 80%;
+    padding: 0;
 }
 .header{
     position: relative;
     top: 0;
     bottom: 0;
-    right: 0;
-    left: 0;  
-    margin-bottom: 0; 
+    right: 0; 
+    height: 80vh;
+    background-image: url("./Images/backgrounds/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header>.logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    align-items: center;
+    position: relative;
+    top: 30%;
+    left: 40%;
+    display: inline-block;
     color:white;
     font-size: 50px;
 }
@@ -23,6 +25,7 @@ nav{
     height: auto;
     width: 100%;
     display: flex;
+    
 }
 nav>.menus>.menu>a{
     font-size: 24px;
@@ -67,7 +70,7 @@ nav>.menus>img:hover {
     font-size: 24px;
     font-weight: bolder;
     padding-top: 18px;
-    width: 350px;
+    width: 400px;
 }
 .lunch{
     display: flex;
@@ -104,8 +107,6 @@ nav>.menus>img:hover {
     height: 100%;
     justify-content: center;
     align-items: center;
-    /* background-position: center;
-    overflow: hidden; */
     
 }
 .foods{
@@ -124,7 +125,7 @@ nav>.menus>img:hover {
     margin: 50px auto;
     display: flex;
     text-align: justify;
-    border: 2px solid grey;
+    border:  1px solid #ccc;
     box-shadow: 5px 5px 5px grey;
     padding: 30px;
     box-sizing: border-box;
@@ -137,5 +138,36 @@ nav>.menus>img:hover {
     width: 50%;
     margin-left: 10px;
     padding: 30px;
-    border-left: 1px solid grey;
+    border-left: 1px solid #ccc;
+}
+form{
+    background-image: url("./Images/backgrounds/subscribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 30vh;
+
+}
+.subscribe{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input[type=text], input[type=submit]{
+    width: 250px;
+    height: 4vh;
+    margin: 2px;
+    
+}
+input[type=submit]{
+    background-color: #F15A29;
+    color: white;
+    border: none;
 }
