@@ -127,8 +127,11 @@ nav>.menus>img:hover {
     text-align: justify;
     border:  1px solid #ccc;
     box-shadow: 5px 5px 5px grey;
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
+}
+h2{
+    color: #F15A29;
 }
 .feedbacks{
     width: 50%;
