@@ -102,23 +102,49 @@ nav>.menus>img:hover {
     background-image: url("./Images/backgrounds/foodsBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     width: 100%;
-    height: 100%;
+    height: 80vh;
     justify-content: center;
-    align-items: center;
     
+  
 }
-.foods{
-    width: 20%;
-    height: 50%;
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
     padding: 20px;
-    text-align: center;
-    background-color: white;
-    margin: 50px 0 50px 0;
-    color: tomato;
-    
-   
+    background: #fff;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+.mytabs .tab h2:first-child {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+    color: #F15A29;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
 }
 .customers{
     width: 70%;
@@ -188,4 +214,25 @@ footer{
 }
 .footer-img>a{
     padding: 5px;
+}
+.food-nav>ul{
+    list-style-type: none;
+    height: 100px;
+}
+.food-nav>ul>li:first-child{
+    background-color: white;
+   
+}
+.food-nav>ul>li{
+    float: left;
+    border: 2px solid #ddd;
+}
+.food-nav>ul>li>a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #ccc;
+    width: 100px;
 }
