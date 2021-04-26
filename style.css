@@ -118,6 +118,9 @@ h6>img{
     height: 15px;
     justify-content: center;
 }
+.arrow{
+    height: 1px;
+}
 .fastfood{
     background-image: url("./Images/backgrounds/foodsBg.jpg");
     background-repeat: no-repeat;
@@ -139,6 +142,15 @@ h6>img{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.mytabs>.tab>.food-img{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.arrow{
+    margin: 50px 0;
+}
+
 .mytabs input[type="radio"] {
     display: none;
 }
@@ -191,6 +203,12 @@ h2{
 .feedback{
     display: flex;
     justify-content: center;
+}
+.feedback .arrow{
+    margin: 1px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #F15A29;
 }
 .about-menu{
     width: 50%;
