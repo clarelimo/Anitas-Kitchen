@@ -104,6 +104,20 @@ nav>.menus>img:hover {
     box-shadow: 5px 5px 5px gray;
     padding: 10px;
 }
+h6{
+    color: #F15A29;
+    border: 1px solid #F15A29;
+    font-size: 24px;
+    width: 50%;
+    height: 5vh;
+    text-align: center;
+    padding: 20px;
+}
+h6>img{
+    width: 50px;
+    height: 15px;
+    justify-content: center;
+}
 .fastfood{
     background-image: url("./Images/backgrounds/foodsBg.jpg");
     background-repeat: no-repeat;
@@ -124,7 +138,6 @@ nav>.menus>img:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
 }
 .mytabs input[type="radio"] {
     display: none;
