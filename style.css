@@ -76,44 +76,45 @@ nav>div:hover {
 .dinner{
     background-image: url("./Images/foodtop/dinner.jpg");
 }
-.lunch{
+.lunch,.drinks{
     display: flex;
     margin: 50px auto;
-    width: 80%;
+    width: 70%;
 }
 .food{
-    float: left;
     width: 50%;
-    box-sizing: border-box;
-    box-shadow: 5px 5px 5px gray;
+    box-sizing: border-box; 
+    margin-right: 50px; 
     padding: 10px;
-    margin-left: 10px;
-}
-.drinks{
-    display: flex;
-    margin: 50px auto;
-    width: 80%;
+    box-shadow: 0px 5px 10px 0px gray;
 }
 .drink{
-    width: 50%;
-    margin: 10px;
-    box-sizing: border-box; 
-    box-shadow: 5px 5px 5px gray;
+    width: 60%;
+    margin-left: 50px;  
     padding: 10px;
+    box-shadow: 0px 5px 10px 0px gray;
+}
+.drink-info,.food-info{
+     width: 70%;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.food-info{
+    font-size: 20px;
 }
 h6{
     color: #F15A29;
     border: 1px solid #F15A29;
-    font-size: 24px;
-    width: 50%;
+    font-size: 16px;
+    width: 24%;
     height: 5vh;
     text-align: center;
-    padding: 20px;
-    margin: 50px;
+    line-height: 3;
+    margin-top: 50px;
 }
 h6>img{
-    width: 50px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     justify-content: center;
 }
 .arrow{
