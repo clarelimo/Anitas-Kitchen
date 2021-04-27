@@ -1,6 +1,5 @@
-html{
-    margin: auto;
-    width: 80%;
+*{
+    margin: 0;
     padding: 0;
 }
 .menubar{
@@ -28,60 +27,58 @@ html{
     font-size: 50px;
 }
 nav{
-    height: auto;
+    height: 25vh;
     width: 100%;
     display: flex;
-    
-}
-nav>.menus>.menu>a{
+    justify-content: space-around;
+    text-align: center;
+    line-height: 9;
     font-size: 24px;
-    padding: 18px;
+}
+
+nav>div>a{
     color: white;
     text-decoration: none;
 }
-nav>.menus>img:hover {
+nav>div:hover {
     opacity: 0.5;
-}
-.menus{
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    text-align: center;
-    color: black;
-}
-.menu{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 .partytime{
     background-color: tomato;
-    font-size: 24px;
     font-weight: bolder;
     color: white;
-    height: 100px;
+    height: 50%;
+    
 }
 .happyhour{
     text-align: center;
-    height: 90px;
+    height: 50%;
 } 
 .othermenus{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-size: 24px;
     font-weight: bolder;
-    padding-top: 18px;
-    width: 400px;
+    width: 25%;
+    line-height: 5;
+}
+.menu{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+}
+.breakfast{
+    background-image: url("./Images/foodtop/breakfast.jpg");
+}
+.wine{
+    background-image: url("./Images/foodtop/lunch.jpg");
+}
+.dinner{
+    background-image: url("./Images/foodtop/dinner.jpg");
 }
 .lunch{
     display: flex;
-    flex-direction: row;
-    margin: 5%;
+    margin: 50px auto;
     width: 80%;
 }
 .food{
@@ -94,7 +91,7 @@ nav>.menus>img:hover {
 }
 .drinks{
     display: flex;
-    margin: 5%;
+    margin: 50px auto;
     width: 80%;
 }
 .drink{
@@ -112,6 +109,7 @@ h6{
     height: 5vh;
     text-align: center;
     padding: 20px;
+    margin: 50px;
 }
 h6>img{
     width: 50px;
@@ -184,7 +182,7 @@ h6>img{
     background: #fff;
 }
 .customers{
-    width: 70%;
+    width: 50%;
     margin: 50px auto;
     display: flex;
     text-align: justify;
